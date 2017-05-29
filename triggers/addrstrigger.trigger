@@ -1,4 +1,5 @@
 trigger addrstrigger on Address__c (after insert,after update,after delete) {
+sales force
     list<Address__c>conlist=new List<Address__c>();
     list<Contact>clist=new List<Contact>();
     List<Address__c>consec=new List<Address__c>();
@@ -37,13 +38,14 @@ old.Primary__c=false;
      clist.add(ct);
     
 }
+
 if(clist.size()>0)
           update clist;
 }
 
 
 }
-sales force
+
 
 
 
