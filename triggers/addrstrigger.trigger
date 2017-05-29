@@ -1,5 +1,5 @@
 trigger addrstrigger on Address__c (after insert,after update,after delete) {
-sales force
+sales force is a good crm
     list<Address__c>conlist=new List<Address__c>();
     list<Contact>clist=new List<Contact>();
     List<Address__c>consec=new List<Address__c>();
