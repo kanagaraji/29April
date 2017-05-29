@@ -1,4 +1,4 @@
-trigger AccountTrigger on Account (Before Insert, Before Update) {    
+trigger AccountTriggerr on Account (Before Insert, Before Update) {    
     
     if(Trigger.isInsert && Trigger.isBefore){
     
